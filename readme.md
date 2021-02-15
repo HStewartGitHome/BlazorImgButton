@@ -16,7 +16,7 @@ And the following is example for Hamburger in my example.
 
 ![](media/css.png)
  
-The following is example of screen shot from the example.  Hover image is transparent, but not capture here.
+The following is example of screen shot from the example.  Hover image is transparent
 
 ![](media/screenshot.png)
 
