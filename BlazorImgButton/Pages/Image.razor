@@ -6,8 +6,7 @@
             <div class="col-2 min-vh-100">
             </div>
             <div class="col-6 min-vh-100">
-
-                <h1>Image Counter</h1>
+                <h1 class="spacer">Image Counter</h1>
 
                 <p>Current Hamburgers: @currentHamburgers  Hotdogs: @currentHotdogs</p>
 
@@ -18,19 +17,17 @@
     </div>
 </div>
 
-@code {
-    private int currentHamburgers = 0;
-    private int currentHotdogs = 0;
+@code { private int currentHamburgers = 0;
+            private int currentHotdogs = 0;
 
-    public void HandleOnClicked(string msg)
-    {
-        if (msg == "hamburger")
-        {
-            currentHamburgers++;
-        }
-        else if (msg == "hotdog")
-        {
-            currentHotdogs++;
-        }
-    }
-}
+            public void HandleOnClicked(string msg)
+            {
+                if (msg == "hamburger")
+                {
+                    currentHamburgers++;
+                }
+                else if (msg == "hotdog")
+                {
+                    currentHotdogs++;
+                }
+            } }
