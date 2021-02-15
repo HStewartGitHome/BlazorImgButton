@@ -1,0 +1,36 @@
+﻿@page "/image"
+
+<div class="container-fluid">
+    <div class="page-background-class">
+        <div class="row">
+            <div class="col-2 min-vh-100">
+            </div>
+            <div class="col-6 min-vh-100">
+
+                <h1>Image Counter</h1>
+
+                <p>Current Hamburgers: @currentHamburgers  Hotdogs: @currentHotdogs</p>
+
+                <ImgButton Name="hamburger" OnClickImageButton="@HandleOnClicked"></ImgButton>
+                <ImgButton Name="hotdog" OnClickImageButton="@HandleOnClicked"></ImgButton>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private int currentHamburgers = 0;
+    private int currentHotdogs = 0;
+
+    public void HandleOnClicked(string msg)
+    {
+        if (msg == "hamburger")
+        {
+            currentHamburgers++;
+        }
+        else if (msg == "hotdog")
+        {
+            currentHotdogs++;
+        }
+    }
+}

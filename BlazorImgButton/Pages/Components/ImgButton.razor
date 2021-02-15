@@ -1,0 +1,16 @@
+﻿@page "/imgbutton"
+
+<button @onclick="OnClickImage" class="@Name"></button>
+
+@code {
+    [Parameter]
+    public string Name { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnClickImageButton { get; set; }
+
+    async Task OnClickImage()
+    {
+        await OnClickImageButton.InvokeAsync(Name);
+    }
+}

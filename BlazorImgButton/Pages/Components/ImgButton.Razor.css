@@ -1,0 +1,23 @@
+﻿.hamburger {
+    background: url(../images/hamburger_up.png) no-repeat;
+    cursor: pointer;
+    border: none;
+    width: 280px;
+    height: 280px;
+}
+
+    .hamburger:hover {
+        background: url(../images/hamburger_base.png) no-repeat;
+    }
+
+.hotdog {
+    background: url(../images/hotdog_up.png) no-repeat;
+    cursor: pointer;
+    border: none;
+    width: 280px;
+    height: 280px;
+}
+
+    .hotdog:hover {
+        background: url(../images/hotdog_base.png) no-repeat;
+    }
