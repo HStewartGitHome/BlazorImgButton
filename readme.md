@@ -1,4 +1,4 @@
-Blazor Img Button  Readme
+Blazor Image Button  Readme
 
 Stewart Hyde
 
@@ -23,4 +23,4 @@ The following is example of screen shot from the example.  Hover image is transp
 A couple of things I ran into that I am wondering about to make it more generic.
 1.	I was required to make 2 separate CCS entries in the file. It would be nice to be able to past down the paths for different images.
 2.	I had to make the size of image the same as on the screen. 
-3.	CSS file must reside in component directory and not where razor client is at.
+3.	CSS file must reside in component directory and not where razor page is at.
